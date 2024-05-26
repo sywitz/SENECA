@@ -1,13 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 # Initialize parameters
 rho_water = 1000  # Density of water (kg/m^3)
 g = 9.81  # Acceleration due to gravity (m/s^2)
-tank_height = 5  # Tank height (m)
-piston_diameter = 1  # Piston diameter (m)
-valve_diameter = 0.1  # Valve diameter (m)
 high_tide_height = 3  # High tide height (m)
 tidal_cycle_duration = 43200  # Tidal cycle duration in seconds (12 hours)
 p_atm = 1E5 # Atmospheric pressure
